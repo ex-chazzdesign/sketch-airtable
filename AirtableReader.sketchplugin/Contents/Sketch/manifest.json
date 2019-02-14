@@ -1,0 +1,25 @@
+{
+    "name" : "Airtable Reader",
+    "identifier" : "airtable.reader",
+    "version" : "1.0",
+    "description" : "Read content from airtable",
+    "authorEmail" : "diego.cano@chazzdesign.com",
+    "author" : "Diego Cano",
+
+    "commands" : [
+    {
+      "script" : "script.js",
+      "handler" : "readContent",
+      "shortcut" : "command shift y",
+      "name" : "Read content from airtable",
+      "identifier" : "airtable.reader.read"
+    },
+    {
+      "script" : "script.js",
+      "handler" : "testDialog",
+      "shortcut" : "command shift u",
+      "name" : "Test dialog",
+      "identifier" : "airtable.reader.test"
+    }    
+  ],
+}
